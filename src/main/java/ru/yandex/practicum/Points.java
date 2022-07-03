@@ -3,6 +3,7 @@ package ru.yandex.practicum;
 public class Points {
 
     public static void main(String[] args) {
+        System.out.println("ЭТО ТОЧНО ТЕСТ");
         final Point point1 = newPoint(1, 1);
         final Point point2 = newPoint(2, 2);
         final Point pointsSum = addPoints(point1, point2);
